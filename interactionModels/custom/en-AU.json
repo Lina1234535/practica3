@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "degrees",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "IntentConvert",
+          "samples": [
+            "the equivalent of  {degrees}  degrees farenheit in dentigrades",
+            "convert {degrees} degrees farenheit to dentigrade"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "degrees farenheit trestres"
+    }
+  }
+}

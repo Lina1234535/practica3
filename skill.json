@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:730335649946:function:83bc0d76-8c99-49da-8133-5ecdba88625b:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:730335649946:function:83bc0d76-8c99-49da-8133-5ecdba88625b:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:730335649946:function:83bc0d76-8c99-49da-8133-5ecdba88625b:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:730335649946:function:83bc0d76-8c99-49da-8133-5ecdba88625b:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-ES": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa abre hola mundo",
+            "hola",
+            "ayuda"
+          ],
+          "keywords": [],
+          "name": "practica3",
+          "summary": "Sample Short Description"
+        },
+        "en-AU": {
+          "name": "practica3"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
